@@ -1,0 +1,27 @@
+:root {
+  --background_white: #cdd0d9;
+  --dark_grey: #343636;
+  --text_black: #181818;
+  --light_blue: #93acd2;
+  --primary_blue: #6493d5;
+  --dark_blue: #255b94;
+}
+
+html, body {
+  background-color: var(--background_white);
+  margin: 0;
+  padding: 0;
+  position:relative;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+h2, h3 {
+  margin: 5px;
+}

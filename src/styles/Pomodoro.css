@@ -1,0 +1,7 @@
+.pomodoro-container {
+    background-color: var(--light_blue);
+    height: 20vh;
+    width: 95vw;
+    border-radius: 5px;
+}
+
